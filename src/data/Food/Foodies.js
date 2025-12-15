@@ -3,7 +3,7 @@ export const foodItems = [
         id: 1,
         name: "Truffle Risotto",
         price: 28.99,
-        image: "https://images.unsplash.com/photo-1604909053191-03f5f5c42e9b?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
     },
     {
         id: 2,
@@ -27,13 +27,13 @@ export const foodItems = [
         id: 5,
         name: "Caesar Salad",
         price: 16.5,
-        image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80"
     },
     {
         id: 6,
         name: "Margherita Pizza",
         price: 22.0,
-        image: "https://images.unsplash.com/photo-1601924582975-7e4b7b3f1c3a?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1600&q=90"
     },
     {
         id: 7,
@@ -51,7 +51,7 @@ export const foodItems = [
         id: 9,
         name: "Beef Wellington",
         price: 55.0,
-        image: "https://images.unsplash.com/photo-1605475128023-2c2d52c1d9d8?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&w=1600&q=90"
     },
     {
         id: 10,
@@ -63,19 +63,19 @@ export const foodItems = [
         id: 11,
         name: "Chicken Parmesan",
         price: 24.99,
-        image: "https://images.unsplash.com/photo-1600891965050-d7f8c7c9b76c?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1600&q=90",
     },
     {
         id: 12,
         name: "Seafood Paella",
         price: 38.0,
-        image: "https://images.unsplash.com/photo-1604908177522-402cfa4d9c4f?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=1600&q=90",
     },
     {
         id: 13,
         name: "Duck Confit",
         price: 34.5,
-        image: "https://images.unsplash.com/photo-1625944230945-1b7dd0c63d38?q=80&w=800&auto=format&fit=crop",
+        image: "https://plus.unsplash.com/premium_photo-1694707367241-379972ecdc10?auto=format&fit=crop&w=1600&q=90",
     },
     {
         id: 14,
@@ -87,19 +87,19 @@ export const foodItems = [
         id: 15,
         name: "Tuna Tartare",
         price: 26.5,
-        image: "https://images.unsplash.com/photo-1604908177074-7dbd2c2c932a?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=1600&q=90",
     },
     {
         id: 16,
         name: "Lamb Chops",
         price: 44.0,
-        image: "https://images.unsplash.com/photo-1606755962773-0c6a5d6d6a6b?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1577303935007-0d306ee638cf?auto=format&fit=crop&w=1600&q=90",
     },
     {
         id: 17,
         name: "Mushroom Ravioli",
         price: 23.5,
-        image: "https://images.unsplash.com/photo-1617191519105-d07b98d2b5f9?q=80&w=800&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=1600&q=90",
     },
     {
         id: 18,

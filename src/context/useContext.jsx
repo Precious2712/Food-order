@@ -31,6 +31,9 @@ export const AppProvider = ({ children }) => {
                 }
             );
             console.log('res', res.data);
+            if (res.data) {
+                alert(res.data.message);
+            }
             
         } catch (error) {
             console.log('err', error);

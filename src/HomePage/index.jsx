@@ -19,7 +19,6 @@ export const Signup = () => {
         try {
             const res = await axios.post('http://localhost:5000/api/v1/create-user', values);
             if (res.data) {
-                alert(res.data.message);
                 navigate('/login');
             }
         } catch (error) {
@@ -33,7 +32,7 @@ export const Signup = () => {
         <div className="min-h-screen flex items-center justify-center  px-4">
             <form
                 onSubmit={handleSubmitForm}
-                className="w-full max-w-md bg-white rounded-xl shadow-lg p-6 space-y-4"
+                className="w-full max-w-md bg-white rounded-xl shadow-lg p-6 space-y-4 border-t-[6px] border-b-[6px] border-b-blue-600 border-t-sky-400"
             >
                 <h2 className="text-2xl font-semibold text-center text-gray-700">
                     Create Account

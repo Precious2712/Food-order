@@ -9,7 +9,7 @@ const galleryImages = [
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=1600&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?auto=format&fit=crop&w=1600&q=90",
         title: "Fresh Seafood",
         description: "Ocean to table freshness",
     },
@@ -33,7 +33,7 @@ const galleryImages = [
     },
     {
         id: 6,
-        image: "https://images.unsplash.com/photo-1601924582975-7e4b7b3f1c3a?q=80&w=1600&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1577303935007-0d306ee638cf?auto=format&fit=crop&w=1600&q=90",
         title: "Wood-Fired Pizza",
         description: "Authentic Italian tradition",
     },
@@ -51,7 +51,7 @@ const galleryImages = [
     },
     {
         id: 9,
-        image: "https://images.unsplash.com/photo-1605475128023-2c2d52c1d9d8?q=80&w=1600&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1460306855393-0410f61241c7?auto=format&fit=crop&w=1600&q=90",
         title: "British Classic",
         description: "Elegant and timeless",
     },
