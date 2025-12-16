@@ -1,9 +1,14 @@
 import { FoodCard } from "@/components/FoodCard/FoodCard";
+import { Header } from "@/components/FoodCard/Header";
+import { ModalBox } from "@/components/FoodCard/ModalBox";
 import { ScrollLockGallery } from "@/components/FoodCard/ScrollLockGalaxry";
+import { useAppContext } from "@/context/useContext";
 import { foodItems } from "@/data/Food/Foodies";
 import { useEffect, useRef } from "react";
+// import { foodItems } from "@/data/Food/Foodies";
 
 export const LandingPage = () => {
+    const { open, setOpen, cartItem, sum } = useAppContext();
 
     const menuRef = useRef(null)
 
@@ -31,6 +36,7 @@ export const LandingPage = () => {
     return (
         <div>
             <div style={{ maxHeight: '100vh', overflow: 'hidden' }}>
+                <Header />
                 <ScrollLockGallery />
             </div>
 
@@ -56,6 +62,14 @@ export const LandingPage = () => {
                     </div>
                 )}
             </section>
+
+            {open && (
+                <ModalBox closeButton={() => setOpen(false)}
+                    items={cartItem}
+                    grandTotal={sum}
+                />
+            )}
+
         </div>
     );
 };

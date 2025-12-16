@@ -141,7 +141,7 @@ export function ScrollLockGallery() {
                     </div>
                 )}
 
-                <div className="relative w-full h-full">
+                <div className="relative w-full h-[30vh] lg:h-[60vh]">
                     {galleryImages.map((item, index) => (
                         <div
                             key={item.id}
